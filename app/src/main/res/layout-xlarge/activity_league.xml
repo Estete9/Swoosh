@@ -53,40 +53,43 @@
         app:layout_constraintVertical_bias="0.23000002">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/mensLeague"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
             android:background="@drawable/button_toggle"
-            android:text="ToggleButton"
+            android:onClick="onMensLeagueClicked"
+            android:text="@string/mens"
             android:textColor="@android:color/white"
             android:textOff="@string/mens"
             android:textOn="@string/mens"
             android:textSize="30sp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/womensLeague"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:layout_weight="1"
             android:background="@drawable/button_toggle"
-            android:text="ToggleButton"
+            android:onClick="onWomensLeagueClicked"
+            android:text="@string/womens"
             android:textColor="@android:color/white"
             android:textOff="@string/womens"
             android:textOn="@string/womens"
             android:textSize="30sp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/CoEdLeague"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:background="@drawable/button_toggle"
-            android:text="ToggleButton"
+            android:onClick="onCoEdLeagueClicked"
+            android:text="@string/co_ed"
             android:textColor="@android:color/white"
             android:textOff="@string/co_ed"
             android:textOn="@string/co_ed"
@@ -96,10 +99,11 @@
     <Button
         android:id="@+id/button3"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
         android:layout_marginTop="136dp"
         android:background="@drawable/button"
+        android:onClick="leagueNextClicked"
         android:text="@string/next"
         android:textColor="@android:color/white"
         android:textSize="30sp"
