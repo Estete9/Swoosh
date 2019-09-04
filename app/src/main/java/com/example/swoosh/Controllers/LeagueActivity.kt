@@ -30,14 +30,12 @@ class LeagueActivity : BaseActivity() {
 
     fun onMensLeagueClicked(view: View) {
         womensLeague.isChecked = false
-
         CoEdLeague.isChecked = false
         player.league = "mens"
     }
 
     fun onWomensLeagueClicked(view: View) {
         mensLeague.isChecked = false
-
         CoEdLeague.isChecked = false
         player.league = "womens"
 
@@ -58,8 +56,9 @@ class LeagueActivity : BaseActivity() {
             skillActivity.putExtra(EXTRA_PLAYER, player)
             startActivity(skillActivity)
         } else {
-
             Toast.makeText(this, "Please select a League", Toast.LENGTH_SHORT).show()
         }
     }
+
+
 }
