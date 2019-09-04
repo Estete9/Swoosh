@@ -18,4 +18,7 @@
     <string name="togglebutton">ToggleButton</string>
     <string name="baller">Baller</string>
     <string name="finish">Finish</string>
+    <string name="looking_for_background">looking for background</string>
+    <string name="welcome_background">welcome background</string>
+    <string name="finish_background">finish background</string>
 </resources>

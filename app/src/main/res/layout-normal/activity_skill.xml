@@ -67,8 +67,8 @@
             android:onClick="beginnerSkillSelected"
             android:text="@string/togglebutton"
             android:textColor="@android:color/white"
-            android:textOff="Beginner"
-            android:textOn="Beginner"
+            android:textOff="@string/begginer"
+            android:textOn="@string/begginer"
             android:textSize="18sp" />
 
         <ToggleButton
